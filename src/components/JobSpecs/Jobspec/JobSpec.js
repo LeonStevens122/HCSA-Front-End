@@ -16,7 +16,7 @@ const JobSpec = (props) => {
 
   const [jobSpecData, setJobSpecData] = useState([]);
   const [singleJob, setSingleJob] = useState({
-    jobTitle: "initialStatwe",
+    jobTitle: "initialState",
     jobDescription: "InintialState",
     jobRequirements: ["test"],
     recruiter: "test",
@@ -35,7 +35,7 @@ const JobSpec = (props) => {
     });
   };
   const getJobSpecList = () => {
-    axios.get("http://localhost:5000/JobSpec/").then((resp) => {
+    axios.get("https://hcsa.herokuapp.com/JobSpec/").then((resp) => {
       const jobSpecList = resp.data;
 
       setJobSpecData(jobSpecList);
