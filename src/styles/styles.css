@@ -1,0 +1,55 @@
+body {
+    margin-top: 10.5em;
+    background-image: url("./images//HCSA-Background-logo-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+    
+    background-position: center top;
+     background-attachment: fixed; 
+   
+    height: 0;
+    padding-bottom: 75%;
+    object-fit: cover;
+    -webkit-text-size-adjust: 100%;
+   
+  }
+  .about__container {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 1em;
+    padding: 1em;
+  }
+  .contact__container {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 1em;
+    padding: 1em;
+  }
+  .jobSpec__container {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    margin: 1em;
+    padding: 1em;
+
+  }
+
+/*   -webkit-text-size-adjust: 100%;
+  color: #333;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  word-wrap: break-word;
+  aspect-ratio: auto 2000 / 1200;
+  box-sizing: inherit;
+  border-style: none;
+  position: fixed;
+  max-width: 1000%;
+  min-height: 100%;
+  min-width: 100vw;
+  padding-bottom: 1px;
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  top: 0;
+  transform: none;
+  width: 100%; */
